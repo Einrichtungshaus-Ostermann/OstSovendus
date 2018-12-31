@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+
+        <element type="button">
+            <name>defaultButton</name>
+            <label><![CDATA[<b>Allgemeine Einstellungen</b>]]></label>
+        </element>
+
+        <element type="text">
+            <name>trafficSourceNumber</name>
+            <label>Traffic-Source</label>
+            <description>Die Traffic-Source-Number von Sovendus.</description>
+        </element>
+
+        <element type="text">
+            <name>trafficMediumNumber</name>
+            <label>Traffic-Medium</label>
+            <description>Die Traffic-Medium-Number von Sovendus.</description>
+        </element>
+
+    </elements>
+</config>
